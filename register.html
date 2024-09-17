@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register</title>
+    </head>
+
+    <body>
+        <header>
+            <img src="../Multimedia/new_cn_logo.svg" alt="cn_logo" title="cn_logo" />
+            <h1>Create an Account</h1>
+        </header>
+        <main>
+            <form action="">
+                <fieldset>
+                    <legend>Personal Information</legend><br>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required><br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" minlength="6" maxlength="8" required><br><br>
+                    <label for="usertype">User Type:</label>
+                    <select name="usertype" id="usertype">
+                        <option value="Student">Student</option>
+                        <option value="professionals">Professionals</option>
+                    </select><br><br>
+                    <label for="course">Select Course:</label>
+                    <select name="course" id="course">
+                        <option value="Web_development">Course - 1 Web Development</option>
+                        <option value="Data_Science">Course - 2 Data Science</option>
+                        <option value="Digital_Marketing">Course - 3 Digital Marketing</option>
+                        <option value="android_development">Course - 4 Android Development</option>
+                    </select><br><br>
+                    <button type="submit" value="submit">Register</button>
+                </fieldset>
+            </form>
+        </main>
+    </body>
+
+</html>
